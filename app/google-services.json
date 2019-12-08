@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "723197445484",
+    "firebase_url": "https://result-d5082.firebaseio.com",
+    "project_id": "result-d5082",
+    "storage_bucket": "result-d5082.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723197445484:android:13a3c2cb3e204176431f49",
+        "android_client_info": {
+          "package_name": "com.inti.student.result"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723197445484-7es0j5ig69p3s9phkcbgnnj0isms49ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiA_iv2xpQ75wbcrRZKnW-3zMW4v0UZxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723197445484-7es0j5ig69p3s9phkcbgnnj0isms49ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

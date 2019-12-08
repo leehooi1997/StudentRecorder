@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inti.student.result">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/record"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/record"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".Nav"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".DataRetrieved" />
+        <activity android:name=".Sem1Activity" />
+        <activity android:name=".ScheduleRetrieved" />
+        <activity android:name=".Sem2Activity" />
+        <activity android:name=".Sem2Retrieved" />
+        <activity android:name=".Sem3Activity" />
+        <activity android:name=".Sem3Retrieved" />
+        <activity android:name=".CGPA" />
+        <activity android:name=".CgpaRetrieve" />
+        <activity android:name=".Notes" />
+        <activity android:name=".NoteRetrieved" />
+        <activity android:name=".WebActivity"></activity>
+    </application>
+
+</manifest>
